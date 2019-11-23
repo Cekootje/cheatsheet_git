@@ -33,4 +33,6 @@ git reset --hard origin/<branch_name>
 ```
 git tag --list
 git tag --list | grep xxx
+git tag -d xxx # deleting tag locally
+git push origin :refs/tags/xxx # deleting tag on remote
 ```
